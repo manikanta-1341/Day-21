@@ -1,0 +1,25 @@
+.countdown{
+    margin:auto;
+    height: 5em;
+    width: 10em;
+    text-align: center;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+body {
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #ff9933, #ff9c7c, #ffadb9, #ffc7e7, #ffe2fe, #ebe1ff, #d5e0ff, #bfdffc, #68ceea, #00bcbc, #00a572, #138808);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+@media (min-width: 768px) {
+    .countdown{
+        font-size: 100px;
+    }
+}
